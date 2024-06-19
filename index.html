@@ -2,15 +2,54 @@
 <html>
 <head>
     <title>Nearest Coordinate Finder</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <header>
+        <div class="img_logo">
+            <img src="/new logo 1.png" alt="comapny_logo">
+        </div>
+    </header>
+
+    <div class="info">
+        <img src="/Nearest_Coordinate_Finder_Logo.png" alt="info_location" class="info_logo">
+        <h3>Geo-Eyes Coordinate Finder</h3>
+        <h3 class="working_guide">
+            How It Works: <br>
+1.	User Input: <br>
+	The surveyor inputs the easting and northing coordinates of the point they are interested in. <br>
+2.	Database Search: <br>
+	The application searches through a pre-uploaded database of existing coordinates (pillars) <br> within Oyo State to find the three closest points to the input coordinate. <br>
+3.	Distance Calculation: <br>
+	The application calculates the Euclidean distance between the input coordinate and each point <br> in the database to determine proximity. <br>
+4.	Results Display: <br>
+	The application displays the three nearest points along with their coordinates and the calculated <br> distances.
+
+        </h3>
+    </div>
+
     <h1>Find Nearest Coordinates</h1>
-    <form action="https://your-backend-url/find-nearest" method="post">
+    <form action="/find-nearest" method="post">
         <label for="easting">Easting:</label>
         <input type="text" id="easting" name="easting"><br><br>
         <label for="northing">Northing:</label>
         <input type="text" id="northing" name="northing"><br><br>
         <input type="submit" value="Find Nearest">
     </form>
+
+    <h3 class="use_case">
+        Use Case Scenario: <br>
+Imagine a surveyor is working in a remote area within Oyo State and needs to establish a new survey point. By using the Geo-Coord-Finder, they can: <br>
+1.	Input the current coordinates into the application. <br>
+2.	Instantly receive the three closest existing pillars, along with their distances. <br>
+3.	Use this information to connect the new point to the existing survey network, ensuring accuracy and efficiency in their measurements. <br>
+
+    </h3>
+
+    <footer class="about">
+        No. 7, Popoola Street, Fabumi Road, <br> Elero Bus Stop, Ashi-Bodija Road, Ibadan. <br>
+        Tel: +234 7030748680, +234 8158254944 <br>
+        E-mail: surveyingtool01@gmail.com <br> 
+    </footer>
 </body>
 </html>
