@@ -1,0 +1,40 @@
+header {
+    text-underline-position: ;
+}
+
+.img_logo {
+    zoom: .05;
+    display: flex;
+    justify-content: right;
+}
+
+.working_guide{
+    display: flex;
+    justify-content: center;
+    margin-top: -220px;
+}
+
+.info_logo {
+    zoom: .15;
+    margin-left: 300px;
+}
+
+h1{
+    margin-left: 600px;
+}
+
+form{
+    margin-left: 600px;
+}
+
+.use_case{
+    margin-top: 50px;
+}
+
+.about{
+    box-sizing: border-box;
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+    margin-top: 70px;
+}
