@@ -1,40 +1,53 @@
+/* Add your custom styles here */
+body {
+    font-family: Arial, sans-serif;
+}
+
 header {
-    text-underline-position: ;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
 }
 
-.img_logo {
-    zoom: .05;
-    display: flex;
-    justify-content: right;
+.img_logo img {
+    max-width: 100px;
 }
 
-.working_guide{
-    display: flex;
-    justify-content: center;
-    margin-top: -220px;
+.info {
+    text-align: center;
+    margin: 20px;
 }
 
 .info_logo {
-    zoom: .15;
-    margin-left: 300px;
+    max-width: 50px;
 }
 
-h1{
-    margin-left: 600px;
+.working_guide, .use_case, .about {
+    margin: 20px;
+    padding: 10px;
 }
 
-form{
-    margin-left: 600px;
+form {
+    text-align: center;
+    margin: 20px;
 }
 
-.use_case{
-    margin-top: 50px;
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
 }
 
-.about{
-    box-sizing: border-box;
-    height: 300px;
-    width: 100%;
-    background-color: blue;
-    margin-top: 70px;
+input[type="text"] {
+    width: 200px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
 }
